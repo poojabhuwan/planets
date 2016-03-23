@@ -3,3 +3,7 @@ git config --global user.email "kanu.jain@gmail.com"
 git init
 git status
 git add learnGit.txt
+git commit -m "Added my first file learnGit.txt"
+git status
+git log
+git log --oneline
