@@ -11,3 +11,10 @@ git log --oneline
 git add learnGit.txt
 git diff --staged
 git commit -m "modified my first file and committed"
+#Various ways to see the diff
+git diff head~2
+git diff head~3
+git checkout -- learnGit.txt
+git checkout ad0cf08 # always do this after add and commit
+# when you do checkout you are replacing the version in your folder with the version that you checkout with using the log number
+# you can see the log number by doing git log --oneline
