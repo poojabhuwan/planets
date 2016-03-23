@@ -2,8 +2,11 @@ git config --global user.name "poojabhuwan"
 git config --global user.email "kanu.jain@gmail.com"
 git init
 git status
+# staging the file just before commit
 git add learnGit.txt
 git commit -m "Added my first file learnGit.txt"
 git status
 git log
 git log --oneline
+git add learnGit.txt
+git commit -m "modified my first file and committed"
