@@ -1,0 +1,5 @@
+git config --global user.name "poojabhuwan"
+git config --global user.email "kanu.jain@gmail.com"
+git init
+git status
+git add learnGit.txt
